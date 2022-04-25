@@ -69,12 +69,12 @@ class LSTMModel(nn.Module):
         ##-------------------------------------------------------
         ## complete code to feed input sequence x to get embeddings
         ##-------------------------------------------------------
-        embeds = 
+        # embeds = 
 
         ##-------------------------------------------------------
         ## complete code to feed input sequence x to get embeddings
         ##-------------------------------------------------------
-        lstm_out, _ = 
+        # lstm_out, _ =
         # print("size: ", lstm_out.size())  #batch * seq_len * hidden_dim
 
         ## permute the position of hidden_dim and seq_len
@@ -83,7 +83,7 @@ class LSTMModel(nn.Module):
         ##-------------------------------------------------------
         ## complete code to pool the output to reduce seq_len dim
         ##-------------------------------------------------------
-        out = 
+        # out = 
 
         ## *** Code is Done below, do not modify them ***
         out = out.view(out.size(0),-1)
